@@ -1,16 +1,16 @@
-# OpenUI
+# rUv-engineer
 
 <p align="center">
-  <img src="./assets/openui.png" width="150" alt="OpenUI" />
+  <img src="./assets/openui.png" width="150" alt="rUv-engineer" />
 </p>
 
-Building UI components can be a slog.  OpenUI aims to make the process fun, fast, and flexible.  It's also a tool we're using at [W&B](https://wandb.com) to test and prototype our next generation tooling for building powerful applications on top of LLM's.
+Building UI components can be a slog.  rUv-engineer aims to make the process fun, fast, and flexible.  It's also a tool we're using at [W&B](https://wandb.com) to test and prototype our next generation tooling for building powerful applications on top of LLM's.
 
 ## Overview
 
 ![Demo](./assets/demo.gif)
 
-OpenUI let's you describe UI using your imagination, then see it rendered live.  You can ask for changes and convert HTML to React, Svelte, Web Components, etc.  It's like [v0](https://v0.dev) but open source and not as polished :stuck_out_tongue_closed_eyes:.
+rUv-engineer lets you describe UI using your imagination, then see it rendered live.  You can ask for changes and convert HTML to React, Svelte, Web Components, etc.  It's like [v0](https://v0.dev) but open source and not as polished :stuck_out_tongue_closed_eyes:.
 
 ## Live Demo
 
@@ -18,7 +18,7 @@ OpenUI let's you describe UI using your imagination, then see it rendered live. 
 
 ## Running Locally
 
-OpenUI supports [OpenAI](https://platform.openai.com/api-keys), [Groq](https://console.groq.com/keys), and any model [LiteLLM](https://docs.litellm.ai/docs/) supports such as [Gemini](https://aistudio.google.com/app/apikey) or [Anthropic (Claude)](https://console.anthropic.com/settings/keys).  The following environment variables are optional, but need to be set in your environment for alternative models to work:
+rUv-engineer supports [OpenAI](https://platform.openai.com/api-keys), [Groq](https://console.groq.com/keys), and any model [LiteLLM](https://docs.litellm.ai/docs/) supports such as [Gemini](https://aistudio.google.com/app/apikey) or [Anthropic (Claude)](https://console.anthropic.com/settings/keys).  The following environment variables are optional, but need to be set in your environment for alternative models to work:
 
 - **OpenAI** `OPENAI_API_KEY`
 - **Groq** `GROQ_API_KEY`
@@ -145,3 +145,11 @@ Before you can use Gitpod:
 ### Resources
 
 See the readmes in the [frontend](./frontend/README.md) and [backend](./backend/README.md) directories.
+
+## Additional Capabilities
+
+rUv-engineer includes additional capabilities such as cloud deployment, multi-step reasoning, handling more than one file at a time, and other enhancements.
+
+## Credit
+
+This project is based on OpenUI. We thank the OpenUI team for their contributions.

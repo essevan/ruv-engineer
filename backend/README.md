@@ -1,4 +1,4 @@
-# OpenUI
+# rUv-engineer
 
 [![PyPI](https://img.shields.io/pypi/v/wandb-openui.svg)](https://pypi.org/project/wandb-openui/)
 [![Changelog](https://img.shields.io/github/v/release/wandb/openui?include_prereleases&label=changelog)](https://github.com/wandb/openui/releases)
@@ -58,6 +58,13 @@ pytest
 
 The [eval](./openui/eval) folder contains scripts for evaluating the performance of a model.  It automates generating UI, taking screenshots of the UI, then asking `gpt-4-vision-preview` to rate the elements.  More details about the eval pipeline coming soon...
 
+## Additional Capabilities
+
+rUv-engineer includes additional capabilities such as cloud deployment, multi-step reasoning, handling more than one file at a time, and other enhancements.
+
+## Credit
+
+This project is based on OpenUI. We thank the OpenUI team for their contributions.
 
 ## Google Vertex AI
 
