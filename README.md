@@ -131,7 +131,7 @@ The codespace installs ollama automaticaly and downloads the `llava` model.  You
 
 You can easily use Open UI via Gitpod, preconfigured with Open AI.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/wandb/openui)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ruvnet/ruv-engineer)
 
 On launch Open UI is automatically installed and launched.
 
