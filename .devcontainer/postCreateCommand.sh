@@ -5,11 +5,11 @@ mkdir -p $HOME/.cache
 sudo chown -R $USER $HOME/.cache
 
 # Install node packages
-cd /workspaces/openui/frontend
+cd /workspaces/ruv-engineer-dev/frontend
 pnpm install
 
 # Install python packages
-cd /workspaces/openui/backend
+cd /workspaces/ruv-engineer-dev/backend
 pip install -e .[test]
 
 # Pull a model for ollama, using llava for now as it's multi-modal
